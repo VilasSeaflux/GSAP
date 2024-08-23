@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Triggers</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    #page1 {
+      height: 100vh;
+      width: 100%;
+      background-color: black;
+    }
+    #page2 {
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(126, 181, 199);
+      padding: 5vw 0;
+    }
+    #page2 h1 {
+      font-size: 40vw;
+      text-transform: uppercase;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2 {
+      font-size: 60px;
+      position: relative;
+      background-color: red;
+      padding: 10px;
+    }
+    #page3 {
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(65, 143, 91);
+    }
+    #box {
+      height: 100px;
+      width: 100px;
+      background-color: red;
+    }
+  </style>
+  <body>
+    <!-- <div id="page1">
+      <div id="box"></div>
+    </div>
+    <div id="page2">
+      <h1>Hello world</h1>
+      <h2>Letsss Scroll</h2>
+    </div>
+    <div id="page3">
+      <div id="box"></div>
+    </div> -->
+    <div id="page1">
+      <h1></h1>
+    </div>
+    <div id="page2">
+      <h1>Experiences</h1>
+    </div>
+    <div id="page3">
+      <h1></h1>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
