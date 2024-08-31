@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cursor</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+    #main {
+      height: 100vh;
+      width: 100vw;
+      background-color: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #cursor {
+      width: 20px;
+      height: 20px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: fixed;
+    }
+    #paragraph {
+      color: #fff;
+      font-size: 1.5rem;
+      width: 70%;
+      margin: 0 auto;
+    }
+  </style>
+  <body>
+    <div id="cursor"></div>
+    <div id="main">
+      <div id="para-div">
+        <p id="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+          reprehenderit sequi tenetur, quis ab consequuntur dolor quo numquam
+          iure nesciunt modi quisquam, iste odio illo praesentium sunt alias
+          eaque labore accusantium ex. Dolor sed aut laborum vel ex odit ab
+          corporis sint placeat quisquam adipisci aspernatur cumque quasi,
+          nostrum a facere rerum, consequuntur delectus qui natus harum fugiat
+          quidem nisi. Magnam, fuga! Debitis, dolores excepturi. Mollitia ipsum
+          ad amet doloribus?\
+        </p>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
