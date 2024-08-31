@@ -7,6 +7,8 @@
     "build": "cross-env NODE_ENV=production rspack build"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

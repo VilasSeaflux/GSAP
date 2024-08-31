@@ -1,8 +1,11 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { useRef } from "react";
+
 function App() {
 	return (
-		<div>
-			<h1 className="text-5xl">GSAP React</h1>
-			<p>Open the console to see the logs.</p>
+		<div className="bg-gray-950 p-20 w-screen h-screen">
+			<div className="bg-red-500 p-5 rounded-xl w-16 h-16" />
 		</div>
 	);
 }
